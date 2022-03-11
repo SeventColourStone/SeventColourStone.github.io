@@ -1,1 +1,3 @@
-# docs
+# Headline
+
+> An awesome project.
