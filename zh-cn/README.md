@@ -1,16 +1,12 @@
-## stone admin
+## docsify
 
-> 一个基于workerman webman的快速开发基础框架，无可想象的高速。包括性能、开发速度
+> 一个神奇的文档网站生成器。
 
 ## 概述
 
-使用Php + webman + layui 搭建的快速后台管理开发项目，支持单表，一对多，多对多，代码生成，超快速的完成业务代码开发
+docsify 可以快速帮你生成文档网站。不同于 GitBook、Hexo 的地方是它不会生成静态的 `.html` 文件，所有转换工作都是在运行时。如果你想要开始使用它，只需要创建一个 `index.html` 就可以开始编写文档并直接[部署在 GitHub Pages](zh-cn/deploy.md)。
 
-stone admin 可以快速帮你生成一套高可用的后台权限管理系统。
-
-立志做 php 的低代码开发开发平台。
-
-查看[快速开始](quickstart.md)了解详情。
+查看[快速开始](zh-cn/quickstart.md)了解详情。
 
 ## 特性
 
