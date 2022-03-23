@@ -47,7 +47,10 @@
 │   │   │           └───add.html     //前端添加视图层      
 │   │   │
 │   │   │
-│   │   │
+├───gencodeBackup //备份的原文件代码
+│   │───app
+│   │   │───admin
+│   │   │───adminUi
 
 ```
 
@@ -56,6 +59,9 @@
 
 如：`$module = "bussiness.test"` 会自动转换为路径 `bussiness/test`,
 对应在项目基目录下的路径则是`app/admin/controller/api/business`，其他类推。
+
+>生成业务代码文件时会判断当前代码内是否存在该文件，存在则会备份到项目根目录下gencodeBackup，文件名改为`{originFileName}+时期时间`
+>意味着您可以全使用代码生成器微调生成逻辑后再根据改动业务使用代码比对工具恢复您的自定义业务改动。
 
 
 
@@ -87,7 +93,13 @@ stoneAdmin 维护一套半前后端分离的admin前端可视化，为何是半�
 ```
 
  
+## 命令行运行
 
+```
+
+php .\webman stone:curd --table external_system_api --module test
+
+```
 
 
 
