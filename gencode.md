@@ -104,7 +104,12 @@ stoneAdmin 维护一套半前后端分离的admin前端可视化，为何是半�
 
 ```
 
-php .\webman stone:curd --table external_system_api --module test
+php .\webman stone:curd --table external_system_api --module test 一键生成所有的curd代码逻辑
+
+php .\webman stone:gen   一键把基础表结构加入代码生成器，即可低代码可视化的做代码改动
+
+
+
 
 ```
 
