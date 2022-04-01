@@ -4,8 +4,8 @@
 
 > 使用Php + webman + layui 搭建的快速后台管理开发项目，支持单表，一对多，多对多，代码生成。
 
-* 前端框架：layui、pear-layui-admin、jquery
-* 后端数据接口：Webman、Workerman、Mysql、Redis、Jwt、multi process、rpc
+* 前端框架技术：layui、pear-layui-admin、jquery、xmselect
+* 后端框架技术：Webman、Workerman、Mysql、Redis、Jwt、multi process、rpc
 
 [GitHub](https://github.com/SeventColourStone/StoneAdmin)
-[Get Started](#quick-start)
+[Get Started](#intro)
