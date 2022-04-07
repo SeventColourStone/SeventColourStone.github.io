@@ -14,23 +14,27 @@ stone admin 可以快速帮你生成一套高可用的后台权限管理系统�
 
 ## 特性
 
-- 无需构建，写完文档直接发布
-- 容易使用并且轻量 (压缩后 ~21kB)
-- 智能的全文搜索
-- 提供多套主题
-- 丰富的 API
-- 支持 Emoji
-- 兼容 IE11
-- 支持服务端渲染 SSR ([示例](https://github.com/docsifyjs/docsify-ssr-demo))
+- 系统功能
+- 基础设施
+- 低代码生成器
+- 多应用授权
+- 完善的前端功能，基于layui
+- 支持插件安装，后期推出丰富的应用市场
 
 ## 示例
 
-可以查看 [Showcase](https://github.com/docsifyjs/docsify/#showcase) 来了解更多在使用 docsify 的文档项目。
+接口文档
+[接口文档](https://www.apifox.cn/apidoc/shared-54a97c1d-c772-4517-999b-ccd2b56472f1)
 
-## 捐赠
+试用环境
 
-如果你觉得 docsify 对你有帮助，或者想对我微小的工作一点资瓷，欢迎给我[捐赠](https://github.com/QingWei-Li/donate)。
+[测试环境](http://129.28.186.67:8787/ui/admin)
+
+superAdmin
+
+admin123
+
 
 ## 社区
 
-在 [Discord](https://discord.gg/3NwKFyR) 的社区里可以找到 docsify 的用户和开发者团队。
+未完待续..

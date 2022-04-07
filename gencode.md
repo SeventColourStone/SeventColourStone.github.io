@@ -115,8 +115,15 @@ php .\webman stone:gen   一键把基础表结构加入代码生成器，即可�
 ```
 
 
+## 自动表单生成
 
-默认存在固定的接口
+
+
+
+###  接口
+
+
+默认生成单表curd的接口
 
 - index (列表)
 - recycle (回收站列表)
@@ -129,10 +136,5 @@ php .\webman stone:gen   一键把基础表结构加入代码生成器，即可�
 
 
 
-### index 接口
-
-
-
-
-可传请求参数select，默认会过滤表内不存在的字段名，您也可使用 `field_name as new_field_name` 重定义字段名
+可传请求参数select，默认会过滤表内不存在的字段名，您也可使用 `field_name as new_field_name` 重定义字段名。
 
