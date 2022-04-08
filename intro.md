@@ -5,12 +5,19 @@ StoneAdmin是一款基于Webman+Workerman+layui的快速开发框架，包含管
 ## 主要特性
 
 - 基于workerman的常驻内存cli启动机制，可以直接使用workerman的socket。
+- 超高性能，基于动态io复用，可在不同系统下切换epoll、selectio复用模式。
 - 多应用jwt授权机制，不同应用下发不同jwt验证签名。
 - 基于角色、部门的访问权限、数据权限。
-- 强大的代码生成器，暂时只支持单表生成，推动一对多、多对多、树列生成，自建丰富的表单操作ui
+- websocket支持。
+- 多进程支持。
+- 强大的代码生成器，暂时只支持单表生成，后期推出一对多、多对多、树列生成，自建丰富的表单操作ui
 - 后期丰富的可拔插应用市场
 
 ## 安装使用
+
+* 创建mysql 数据库 stone
+* 导入项目目录下`sql/stone.sql`文件，`config/database.php` 下配置数据库账密
+* 项目强依赖redis，您需要在 `config/redis.php` 配置 redis 账密
 
 
 ## 在线演示
@@ -30,6 +37,7 @@ http://129.28.186.67:8787/ui/admin
 * [workerman/workerman](https://www.workerman.net/doc/workerman/ ':target=_blank')
 * [workerman/webman-framework](https://www.workerman.net/webman ':target=_blank')
 * [laravel](https://learnku.com/docs/laravel/8.5 ':target=_blank')
+* [illuminate/database](https://learnku.com/docs/laravel/8.5 ':target=_blank')
 * [php-di/php-di](https://github.com/php-di/php-di ':target=_blank')
 * [w7/engine-validate](https://gitee.com/we7coreteam/w7-engine-validate ':target=_blank')
 * [godruoyi/php-snowflake](https://github.com/godruoyi/php-snowflake ':target=_blank')
