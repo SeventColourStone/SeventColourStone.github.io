@@ -3,6 +3,7 @@
   * [介绍](intro.md)
   * [快速开始](quickstart.md)
   * [架构](structure.md)
+  * [压测](bench.md)
 
 * 快速开发
 
@@ -11,11 +12,11 @@
 * 接口指南
 
 
-  * [部署](deploy.md)
+[comment]: <> (  * [部署]&#40;deploy.md&#41;)
   
 * 深入了解
   
 
 
-* [Awesome docsify](awesome.md)
+* [Awesome stone](awesome.md)
 * [Changelog](changelog.md)

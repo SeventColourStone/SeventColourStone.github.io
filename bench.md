@@ -17,3 +17,13 @@
 - 运行命令 php start.php start
 - 测试命令 `ab -c 10 -n 100 http://127.0.0.1:8000/` 
 - 多次 平均6K多
+
+
+> 无数据库操作：webmann性能是tp6的120倍
+
+## 数据库读操作
+
+> 数据库单条find查询：webman+illuminate/database 是tp6的80倍
+就算不做缓存，不优化数据库，配置稍微好点的云端mysql也能满足基本业务了。
+纯文字输出的rps平均值，TP6是50+ | tp6+worker插件是1k慢降到120|webman是6k
+链接数据库单条有索引find主键的rps tp6是50+ | webman是4k
